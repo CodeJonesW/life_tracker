@@ -24,3 +24,49 @@ a {
     background: black;
   }
 }
+.form-input {
+  display: block;
+  width: 60%;
+  padding: 12px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #00b300;
+  color: white;
+  border: none;
+}
+
+.form-button:hover {
+  background-color: #008000;
+}
+
+.daily-container {
+    display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 16px;
+}
+.form-label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  width: 40%;
+  padding: 8px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  line-height: 100%;
+}
